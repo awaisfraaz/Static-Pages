@@ -1,0 +1,16 @@
+.row{
+    background-color: rgb(180, 114, 114);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+.col-sm,col-sm-4,.col-sm-8{
+    background-color: rgb(180, 114, 114);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .row + .row {
+  border-top: none;
+} */
