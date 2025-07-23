@@ -25,6 +25,7 @@
     overflow: auto;
         /* border: 2px solid white; */
     margin-left:0.5rem;
+    padding-left: 1.5rem;
 
 
 }
@@ -170,4 +171,50 @@ nav-option i{
     .hide{
         display: none;
     }
+}
+h2{
+    background-color:rgb(33, 33, 33);
+
+}
+.card{
+    width: 150px;
+    border-radius: 0.75rem;
+    padding: .75rem;
+       background-color:rgb(59, 59, 59);
+       margin-left: 1.25rem;
+       margin-bottom: 1rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+     background-color:rgb(33, 33, 33);
+
+}
+.card-img{
+    width:100%;
+    border-radius: 0.75rem;
+}
+.card-info{
+   border-radius: 0.75rem;  
+   font-size: 0.85rem;
+   opacity:0.8;
+   background-color:rgb(59,59,59);
+}
+.card-title{
+    font-weight: 600;
+    background-color:rgb(59,59,59);
+}
+.footer{
+    height: 300px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(33, 33, 33);
+}
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+    background-color:rgb(33, 33, 33);
 }
